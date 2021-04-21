@@ -1,7 +1,4 @@
 import React from 'react';
-// import { connect } from 'react-redux';
-// import contactsOperations from '../../redux/contacts/contacts-operations';
-// import getSelectors from '../../redux/contacts/contacts-selectors';
 import PropTypes from 'prop-types';
 import styles from './ContactList.module.css';
 
@@ -33,13 +30,5 @@ ContactList.propTypes = {
   ),
   onDeleteContact: PropTypes.func.isRequired,
 };
-
-// const getVisibleContactName = (allContacts, filter) => {
-//   const normalizedFilter = filter.toLowerCase();
-
-//   return allContacts.filter(contact =>
-//     contact.name.toLowerCase().includes(normalizedFilter),
-//   );
-// };
 
 export default ContactList;
